@@ -1,0 +1,102 @@
+
+
+    .img1, .img2, .img3, .img4, .img5, .img6 {
+        display: none;
+        position: absolute;
+        height: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .txt1, .txt2, .txt3, .txt4, .txt5, .txt6 {
+        display: none;
+        font-size: 40px;
+
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+    }
+
+    .text {
+        text-align: center;
+        position: static;
+        margin-top: 50px;
+        color: rgb(73, 73, 73)
+
+    }
+
+    @media (max-width:700px) {
+        body {
+            background-color: rgb(167, 208, 225)
+        }
+        .img1 {
+            display: block;
+        }
+        .txt1 {
+            display: inline;
+        }        
+    }
+
+    @media (min-width: 701px) and (max-width: 900px) {
+        body {
+            background-color: rgb(181, 204, 216)
+        }
+        .img2 {
+            display: block;
+        }
+        .txt2 {
+            display: inline;
+        }
+    }
+
+    @media (min-width:901px) and (max-width:1000px) {
+        body {
+            background-color: rgb(176, 193, 199)
+        }
+        .img3 {
+            display: block;
+        }
+        .txt3 {
+            display: inline;
+        }
+    }
+
+    @media (min-width:1001px) and (max-width:1100px) {
+        body {
+            background-color: rgb(165, 174, 177)
+        }
+        .img4 {
+            display: block;
+        }
+        .txt4 {
+            display: inline;
+        }
+    }
+
+    @media (min-width:1101px) and (max-width:1200px) {
+        body {
+            background-color: rgb(147, 154, 156)
+        }
+        .img5 {
+            display: block;
+        }
+        .txt5 {
+            display: block;
+        }
+    }
+
+    @media (min-width:1201px) {
+        body {
+            background-color: rgb(136, 140, 141)
+        }
+        .img6 {
+            display: block;
+        }
+        .txt6 {
+            display: block;
+        }
+    }
+
+
